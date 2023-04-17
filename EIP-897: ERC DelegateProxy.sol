@@ -1,13 +1,4 @@
- # EIP-897
- This EIP defines the ERC-897 interface, which provides a simple approach to upgradeable smart contracts.
- It introduces two types of proxies: the forwarding proxy and the upgradable proxy.
- The forwarding proxy allows you to call a specific function in a separate contract, while the upgradable proxy allows you to upgrade the logic of the separate contract itself.
- 
- 
- 
- ```solidity
- 
- // SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: MIT
 pragma solidity 0.8.1;
 
 
@@ -64,5 +55,3 @@ contract ProxyNoMoreClash is ProxyStorage {
     }
   }
 }
-
-```
